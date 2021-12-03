@@ -24,6 +24,9 @@ En annan förbättring var att vi gjorde hela hemsidan reponsiv. Detta är någo
 
 ---
 
+## Demo link
+[DEMO](https://lovelanai.github.io/Re-design-of-webshop/)
+
 ## Licensing
 
 Vi äger inte rätten till någon av bilderna på hemsidan. 
