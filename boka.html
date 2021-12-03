@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cum Pane</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/reusable.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/boka.css">
+</head>
+
+<body>
+    <header>
+        <div class="flex full justify-between align-center container-header">
+
+
+            <div>
+                <a href="./index.html">
+                    <img src="http://cumpane.coop/wp-content/themes/clean-home/cumpanelogotyp.png"
+                        alt="cum-pane logotyp">
+                </a>
+            </div>
+
+
+            <nav class="flex align-center header-titles">
+                <ul class="flex">
+                    <li class="padding-li border-right uppercase relative">
+                        <a onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" href="">Vårt
+                            sortiment</a>
+                        <div class="hover-item-2 active-link-2 absolute">
+                            <a href="" class="hidden-text">Våra sötsaker</a>
+                            <a href="" class="hidden-text">Boka bröd</a>
+                        </div>
+                    </li>
+                    <li class="padding-li border-right uppercase relative">
+                        <a onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')"
+                            href="./bakverkstan.html">Om Bakverkstan</a>
+                        <div class="hover-item-2 active-link-2 absolute">
+                            <a href="" class="hidden-text">Våra råvaror</a>
+                            <a href="./index.html#scroll" class="hidden-text">Nyheter</a>
+                        </div>
+                    </li>
+                    <li class="padding-li border-right uppercase relative">
+                        <a onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" href="">baka och
+                            förvara</a>
+                        <div class="hover-item-2 active-link-2 absolute">
+                            <a href="" class="hidden-text">Bakkurser</a>
+                            <a href="" class="hidden-text">Brödtillbehör</a>
+                        </div>
+                    </li>
+                    <li class="padding-li uppercase relative">
+                        <a onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')"
+                            href="./bakverkstan.html">hitta oss</a>
+                        <div class="hover-item-2 active-link-2 absolute">
+                            <a href="" class="hidden-text">Majorna</a>
+                            <a href="" class="hidden-text">Olskroken</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <a href="./boka.html"><span class="gone-500 menu material-icons">bakery_dining</span></a>
+                <a href="./bakverkstan.html"><span class="gone-500 menu material-icons">location_on</span></a>
+                <span class="menu material-icons"> menu</span>
+            </div>
+
+
+        </div>
+        <audio id="mySound" src="/assets/whoosh.wav" preload="auto"></audio>
+    </header>
+    <main>
+
+        <div class="form">
+
+            <form class="row g-3">
+                <div class="uppercase">
+                    <h1>Boka bröd</h1>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputName1" class="form-label">Förnamn</label>
+                    <input type="name" class="form-control" id="inputName1" placeholder="Skriv ditt förnamn" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputName2" class="form-label">Efternamn</label>
+                    <input type="name" class="form-control" id="inputName2" placeholder="Skriv ditt efternamn" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="input-email" class="form-label">E-post</label>
+                    <input type="email" class="form-control" id="input-email" placeholder="Skriv din email" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Stad</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Skriv din stad" required>
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Skriv din adress" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputState-2" class="form-label"> Vilket bageri</label>
+                    <select id="inputState-2" class="form-select">
+                        <option selected>Välj bageri</option>
+                        <option>Olskroken</option>
+                        <option>Majorna</option>
+                        <option>Ekalandagatan 6</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputState" class="form-label">Typ av bröd</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Välj bröd</option>
+                        <option>Ciabatta</option>
+                        <option>Surdegsbröd</option>
+                        <option>Baguette</option>
+                        <option>Croissant</option>
+                        <option>General lös</option>
+                    </select>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                        <label class="form-check-label" for="gridCheck">
+                            Jag accepterar <a href="https://youtu.be/xvFZjo5PgG0">våra villkor</a>
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-buy">Till betalning </button>
+                </div>
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-2">
+
+            <div class="footer-2-container">
+
+                <div class="footer-2-info">
+                    <h1>Besök eller kontakta oss</h1>
+
+                    <p>
+                        CUM PANE Majorna
+                        <br>
+                        Mariagatan 17, Göteborg
+                        <br>
+                        031-12 15 41
+                        <br>
+                        <br>
+                        CUM PANE Olskroken
+                        <br>
+                        Kobbarnas väg 4, Göteborg
+                        <br>
+                        031-19 99 96
+
+                        <br>
+                        <br>
+                        <a href="carousel.html">info@cumpane.coop</a>
+                    </p>
+
+                </div>
+
+                <div class="öppetider">
+                    <h1>Våra öppetider</h1>
+                    <p>Tisdag-Fredag 9-18, Lördag 9-14
+                    <p>
+                    <div class="img-container-mobile">
+                        <div class="flex img-row">
+                            <img src="http://cumpane.coop/wp-content/themes/clean-home/euro-leaf.png"
+                                alt="euroleaf-logotyp">
+                            <img src="http://cumpane.coop/wp-content/uploads/2020/04/Eldrimner_certifieringsmarke_web.png"
+                                alt="eldrimner-logotyp">
+                        </div>
+
+                        <div class=" flex img-row">
+                            <img src="http://cumpane.coop/wp-content/themes/clean-home/slow-food-gbg.png"
+                                alt="slowfood-logotyp">
+                            <img src="http://cumpane.coop/wp-content/themes/clean-home/cooperatives.png"
+                                alt="cooperatives-logotyp">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="img-container">
+                    <div class="flex img-row">
+                        <img src="http://cumpane.coop/wp-content/themes/clean-home/euro-leaf.png"
+                            alt="euroleaf-logotyp">
+                        <img src="http://cumpane.coop/wp-content/uploads/2020/04/Eldrimner_certifieringsmarke_web.png"
+                            alt="eldrimner-logotyp">
+                    </div>
+
+                    <div class=" flex img-row">
+                        <img src="http://cumpane.coop/wp-content/themes/clean-home/slow-food-gbg.png"
+                            alt="slowfood-logotyp">
+                        <img src="http://cumpane.coop/wp-content/themes/clean-home/cooperatives.png"
+                            alt="cooperatives-logotyp">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+
+            <div class="footer-info">
+                <p class="page-time-info">sidan är senast uppdaterad den 7 oktober 2021</p>
+                <p>webbdesign och publicerad av: love lanai & william saar</p>
+                <p><i class="far fa-copyright"></i>medieinstitutet fedg21</p>
+            </div>
+            <div class="search-container">
+                <form>
+                    <input type="text" name="search" placeholder="Sök...">
+                </form>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/ljud.js"></script>
+</body>
+
+</html>

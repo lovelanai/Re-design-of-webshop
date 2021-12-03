@@ -1,0 +1,48 @@
+/* Global tags */
+
+*{
+    font-family: 'Vollkorn', serif;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(http://www.cumpane.coop/wp-content/themes/cumpane_coop/images/bkg.jpg);
+}
+
+/* Text-styling tags */
+
+.font{font-family: 'Vollkorn', serif;}
+
+.uppercase{text-transform: uppercase;}
+
+.black {color: black;}
+
+/* Positioning tags*/
+
+.flex {display: flex;}
+
+.inline{display: inline-flex;}
+
+.fixed {position: fixed;}
+
+.flex-block {display: block;}
+
+.justify-center {justify-content: center;}
+
+.justify-start{justify-content: flex-start}
+
+.align-center {align-items: center;}
+
+
+.justify-between {justify-content: space-between;}
+
+.justify-evenly {justify-content: space-evenly;}
+
+.relative {position: relative;}
+
+.absolute {position: absolute}
+
+.full {height: 100%; width: 100%;}

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cum Pane</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/reusable.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+
+<body class="font">
+
+    <header class="sticky">
+        <div class="flex full justify-between align-center container-header">
+
+            <div>
+                <a href="./index.html">
+                    <img src="http://cumpane.coop/wp-content/themes/clean-home/cumpanelogotyp.png" alt="">
+                </a>
+            </div>
+
+            <nav class="flex align-center header-titles">
+                <ul class="flex">
+
+                    <li class="padding-li border-right uppercase relative">
+                        <a onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" href="">Vårt
+                            sortiment</a>
+                        <div class="hover-item-2 active-link-2 absolute">
+                            <a href="https://www.youtube.com/watch?v=5kTt0iUhOvg" class="hidden-text">Våra sötsaker</a>
+                            <a href="./boka.html" class="hidden-text">Boka bröd</a>
+                        </div>
+                    </li>
+
+                    <li class="padding-li border-right uppercase relative">
+                        <a onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')"
+                            href="./bakverkstan.html">Om Bakverkstan</a>
+                        <div class="hover-item-2 active-link-2 absolute">
+                            <a href="" class="hidden-text">Våra råvaror</a>
+                            <a href="./index.html#scroll" class="hidden-text">Nyheter</a>
+                        </div>
+                    </li>
+
+                    <li class="padding-li border-right uppercase relative">
+                        <a onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" href="">baka och
+                            förvara</a>
+                        <div class="hover-item-2 active-link-2 absolute">
+                            <a href="https://www.youtube.com/user/HowToBasic" class="hidden-text">Bakkurser</a>
+                            <a href="" class="hidden-text">Brödtillbehör</a>
+                        </div>
+                    </li>
+
+                    <li class="padding-li uppercase relative">
+                        <a onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')"
+                            href="./bakverkstan.html">hitta oss</a>
+                        <div class="hover-item-2 active-link-2 absolute">
+                            <a href="" class="hidden-text">Majorna</a>
+                            <a href="" class="hidden-text">Olskroken</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div>
+                <a href="./boka.html"><span class="gone-500 menu material-icons">bakery_dining</span></a>
+                <a href="./bakverkstan.html"><span class="gone-500 menu material-icons">location_on</span></a>
+                <span class="menu material-icons"> menu</span>
+            </div>
+
+            <audio id="mySound" src="/assets/whoosh.wav" preload="auto"></audio>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="full flex flex-block-600 align-center container-main">
+            <div class="max-width-50">
+                <h1>Livets enkelhet</h1>
+                <p class="black">Det goda brödet. Att sätta ord på det blir ofta rätt fyrkantigt. Jämfört med att smaka på det. Och
+                    egentligen — gott bröd! Ska man behöva beskriva det? Något som kan vara så självklart för oss alla?
+                    Det är ju rätt enkelt. Riktigt mjöl, surdeg, salt. Ibland frön. Kärlek, händerna och tid att jäsa.
+                    Den brännheta stenugnen. Trötta morgontimmar och soluppgång. <br> <br> En sval morgonpromenad bort.
+                    Ibland genom pinande ruskregn. In i det varma. Doft som når ända in i gamla minnen. En blick. Ett
+                    leende. Några ord. Och tyngden i påsen på vägen hem. Glädje och längtan. Att skära genom den
+                    kraftiga skorpan. Bara smör på. <br><br>Sitta ner. Tugga. Vara.</p>
+            </div>
+
+            <div class="full flex justify-center"><img class="main-image" src="./assets/surdegsbread.jpg"
+                    alt="Surdegsbröd"><img class="main-image2" src="./assets/surdegsbread-vertikal.jpg"
+                    alt="Surdegsbröd">
+            </div>
+
+        </div>
+
+        <div class="full flex flex-block-600 align-center container-main">
+            <div class="max-width-50">
+                <h1>Våra bakverkstäder</h1>
+
+                <p class="black">CUM PANE Majorna har fått ett syskon! På Kobbarnas Väg 4, nära Olskrokstorget, öppnade vi den 2:e
+                    februari 2015 CUM PANE Olskroken!</p>
+
+                <p class="black">CUM PANE Majorna kommer att fortsätta precis som vanligt. Vi bakar på båda ställen, det är alltså
+                    ingen brödbutik vi öppnat. I Olskroken bakar vi dessutom inför öppen ridå. Här kan man lättare
+                    förstå hantverket, kunskapen, råvarorna och mödan som finns i varje bröd. Och träffa dem som bakar!
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="container-main carousel-container">
+            <h1>Nyheter</h1>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="./assets/cum-pane.png" class="d-block w-100" alt="Cum Pane bageri">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 style="background-color: #9900007a; color: #fdcf4a;">Kom och fira med Oss!</h1>
+                            <p style="background-color: rgba(0, 0, 0, 0.733); color: #ffffff;">Måndag den 2:e februari
+                                öppnar Cum Panes lillasyster i Olskroken på Kobbarnas väg 4 (bredvid Strömvalls
+                                sportfiske och mittemot Systembolaget).
+
+                                Välkommen från kl 7 till kl 18!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1601000938365-f182c5ec2f77?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2340&q=80"
+                            class="d-block w-100" alt="Bild på Anders paj">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 style="background-color: #9900007a; color: #fdcf4a;">Anders Till Final!</h1>
+                            <p style="background-color: rgba(0, 0, 0, 0.733); color: #ffffff;">I mitten av mars är det
+                                dags för finalen av Årets Bagare, de Svenska Mästerskapen för
+                                professionella bagare.
+
+                                Anders Fredriksson (26 år).Från Alingsås och jobbar på Cum pane – Ekologisk bakverkstad
+                                i Göteborg.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1582486983320-12feb082b528?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                            class="d-block w-100" alt="Bild på en Semla">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 style="background-color: #9900007a; color: #fdcf4a;">Göteborgs Bästa Semla!</h1>
+                            <p style="background-color: rgba(0, 0, 0, 0.589); color: #ffffff;">Vår semla har blivit
+                                utnämnd till Göteborgs bästa semla 2016 av Sveriges Bagare &
+                                Konditorer med
+                                motiveringen!
+                                <br>
+                                En lagom stor semla med härlig kardemummasmak. Helt ekologisk och med en personlig
+                                utformning
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="footer-2">
+
+            <div class="footer-2-container">
+
+                <div class="footer-2-info">
+                    <h1>Besök eller kontakta oss</h1>
+
+                    <p>
+                        CUM PANE Majorna
+                        <br>
+                        Mariagatan 17, Göteborg
+                        <br>
+                        031-12 15 41
+                        <br>
+                        <br>
+                        CUM PANE Olskroken
+                        <br>
+                        Kobbarnas väg 4, Göteborg
+                        <br>
+                        031-19 99 96
+
+                        <br>
+                        <br>
+                        <a href="carousel.html">info@cumpane.coop</a>
+                    </p>
+
+                </div>
+
+                <div class="öppetider">
+                    <h1>Våra öppetider</h1>
+                    <p>Tisdag-Fredag 9-18, Lördag 9-14
+                    <p>
+                    <div class="img-container-mobile">
+                        <div class="flex img-row">
+                            <img src="http://cumpane.coop/wp-content/themes/clean-home/euro-leaf.png"
+                                alt="euroleaf-logotyp">
+                            <img src="http://cumpane.coop/wp-content/uploads/2020/04/Eldrimner_certifieringsmarke_web.png"
+                                alt="eldrimner-logotyp">
+                        </div>
+
+                        <div class=" flex img-row">
+                            <img src="http://cumpane.coop/wp-content/themes/clean-home/slow-food-gbg.png"
+                                alt="slowfood-logotyp">
+                            <img src="http://cumpane.coop/wp-content/themes/clean-home/cooperatives.png"
+                                alt="cooperatives-logotyp">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="img-container">
+                    <div class="flex img-row">
+                        <img src="http://cumpane.coop/wp-content/themes/clean-home/euro-leaf.png"
+                            alt="euroleaf-logotyp">
+                        <img src="http://cumpane.coop/wp-content/uploads/2020/04/Eldrimner_certifieringsmarke_web.png"
+                            alt="eldrimner-logotyp">
+                    </div>
+
+                    <div class=" flex img-row">
+                        <img src="http://cumpane.coop/wp-content/themes/clean-home/slow-food-gbg.png"
+                            alt="slowfood-logotyp">
+                        <img src="http://cumpane.coop/wp-content/themes/clean-home/cooperatives.png"
+                            alt="cooperatives-logotyp">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+
+            <div class="footer-info">
+                <p class="page-time-info">sidan är senast uppdaterad den 7 oktober 2021</p>
+                <p>webbdesign och publicerad av: love lanai & william saar</p>
+                <p><i class="far fa-copyright"></i>medieinstitutet fedg21</p>
+            </div>
+            <div class="search-container">
+                <form>
+                    <input type="text" name="search" placeholder="Sök...">
+                </form>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/ljud.js"></script>
+
+
+</body>
+
+</html>

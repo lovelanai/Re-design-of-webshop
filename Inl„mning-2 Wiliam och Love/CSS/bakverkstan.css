@@ -1,0 +1,41 @@
+/* CSS for Google maps sizing STARTS HERE */
+
+    .container-iframe {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 75%;
+    }
+
+    .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+/* CSS for Google maps sizing ENDS HERE */
+
+/* CSS for the container of the map and text STARTS HERE */
+
+    .w-50 {width: 50%;}
+    
+    .p-right {padding-right: 1rem;}
+    
+    .margin-r {margin-right: 0.5rem;}
+    
+    .margin-l {margin-left: 0.5rem;}
+    
+        /* Media-queries for the container of the map and text */
+        @media (max-width:600px) {
+            .w-50 {
+                width: 100%;}
+            
+            .p-right {
+                padding-right: 0;}
+        }
+    
+/* CSS for the container of the map and text ENDS HERE */

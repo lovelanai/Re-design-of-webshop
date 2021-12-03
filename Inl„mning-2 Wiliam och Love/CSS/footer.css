@@ -1,0 +1,206 @@
+footer{
+    padding: 0 2rem;
+    background-image: url(http://www.cumpane.coop/wp-content/themes/cumpane_coop/images/bkg.jpg);
+}
+
+
+/* TOP-FOOTER STARTS HERE */
+
+/* TOP-FOOTER CONTAINER STARTS HERE */
+
+.footer-2{
+    margin: auto;
+    max-width: 82rem;
+  
+    margin-bottom: 2rem;
+    border-top: 1px solid #fdcf4a;
+}
+
+.footer-2-container{
+    
+    display: flex;
+    margin-top: 2rem;
+
+
+}
+
+/* TOP-FOOTER CONTAINER ENDS HERE */
+
+/* TOP-FOOTER TEXT STARTS HERE */
+
+.footer-2 h1{
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 0 10px;
+    color: #8B0806;
+}
+
+.footer-2 p{
+    color: #8B0806;
+    font-size: 13px;
+
+    letter-spacing: .5px;
+    padding: 0 10px;
+}
+
+.footer-2 a{
+    color: #8B0806;
+}
+
+
+.footer-2-info{
+    
+    width: 30%;
+}
+
+.öppetider{
+    width: 60%;
+
+}
+
+/* TOP-FOOTER TEXT ENDS HERE */
+
+
+/* TOP-FOOTER IMG STARTS HERE */
+
+.img-container{
+    display: grid;
+    align-content:center;
+
+    align-items: center;
+}
+
+.img-container-mobile{
+    display: none;
+}
+
+.img-row{
+    height: 70px;
+}
+
+.img-row img{
+    padding: 10px;
+}
+
+/* TOP-FOOTER IMG ENDS HERE */
+
+
+/* MEDIA */
+
+@media screen and (max-width:517px){
+
+    .img-container{
+        display: none;
+    }
+    
+    .img-container-mobile{
+        display: grid;
+        align-content:center;
+    
+        align-items: center;
+    }
+
+}
+
+
+
+/* TOP FOOTER ENDS HERE */
+
+
+
+
+
+
+
+/* BOTTOM-FOOTER STARTS HERE */
+
+
+/* BOTTOM-FOOTER CONTAINER STARTS HERE */
+
+    .footer{
+    margin: auto;
+    max-width: 82rem;
+    border-top: 1px solid #fdcf4a;
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+    }
+    
+/* BOTTOM-FOOTER CONTAINER ENDS HERE */
+
+/*TEXT STARTS HERE */
+
+    .footer-info{
+        color: #8B0806;
+        display: inline-flex;
+        align-items: inherit;
+        height: inherit;
+        background-color: #FEFBFB;
+    }
+    
+    .footer p{
+        font-size: 10px;
+        text-transform: uppercase;
+        border-right: 1px solid #FDCF4A;
+        letter-spacing: .5px;
+        padding: 0 10px;
+    }
+
+/* FOOTER TEXT ENDS HERE */
+    
+
+/* SEARCH-BAR STARTS HERE */
+
+    .search-container{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FEFBFB;
+        padding-bottom: 1rem;
+    }
+    
+    footer input{
+        display: flex;
+        width: 100%;
+        border: 1.5px solid #ffc21a ;
+        border-radius: 30px;
+        font-size: 12px;
+        color: #8B0806;       
+    }
+
+    ::placeholder{
+    color: #8B0806;
+    font-size: 12px;
+    padding-left: 5px;
+   }
+
+   :placeholder-shown{
+       color: #ffc21a;
+   }
+    
+
+/* SEARCH-BAR ENDS HERE */
+    
+/* MEDIA */
+    
+   @media screen and (max-width:1024px){
+       .search-container{
+           display: none;
+       }
+   }
+
+   @media screen and (max-width:883px){
+
+    .page-time-info{
+        display: none;
+    }
+
+    .footer{
+        justify-content: center;
+    }
+
+   }
+
+   

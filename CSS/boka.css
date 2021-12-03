@@ -1,0 +1,53 @@
+/* Form container starts here */
+
+.form{
+  
+    display:flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+    color: #990000;
+    box-sizing: border-box;
+    padding-top: 2rem;
+    max-width: 1330px;
+}
+
+.btn-buy {
+    color: #990000;
+    background-color: #ffc831ce;
+    border-color: #ffc831;;
+}
+
+
+/* Form container ends here */
+
+
+/* Header overwriting bootstrap starts here*/
+
+ul {
+    margin-top: 1rem;
+}
+
+main{
+    padding-top:150px;
+    margin-bottom: 5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+    box-sizing: border-box;
+}
+
+/* Header overwriting bootstrap ends here*/
+
+
+
+
+/* Media */
+
+
+@media (max-width: 1024px) {
+    main {
+        padding-top: 11px;
+    }
+}

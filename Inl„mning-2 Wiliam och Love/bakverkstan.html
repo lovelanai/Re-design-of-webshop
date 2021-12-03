@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cum Pane</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/reusable.css">
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/bakverkstan.css">
+</head>
+
+<body>
+
+    <header class="sticky">
+        <div class="flex full justify-between align-center container-header">
+
+            <div>
+                <a href="index.html">
+                    <img src="http://cumpane.coop/wp-content/themes/clean-home/cumpanelogotyp.png" alt="">
+                </a>
+            </div>
+
+            <nav class="flex align-center header-titles">
+                <ul class="flex">
+
+                    <li class="padding-li border-right uppercase relative">
+                        <a onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" href="">Vårt
+                            sortiment</a>
+                        <div class="hover-item-2 active-link-2 absolute">
+                            <a href="https://www.youtube.com/watch?v=5kTt0iUhOvg" class="hidden-text">Våra sötsaker</a>
+                            <a href="/boka.html" class="hidden-text">Boka bröd</a>
+                        </div>
+                    </li>
+
+                    <li class="padding-li border-right uppercase relative">
+                        <a onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')"
+                            href="/bakverkstan.html">Om Bakverkstan</a>
+                        <div class="hover-item-2 active-link-2 absolute">
+                            <a href="" class="hidden-text">Våra råvaror</a>
+                            <a href="/index.html#scroll" class="hidden-text">Nyheter</a>
+                        </div>
+                    </li>
+
+                    <li class="padding-li border-right uppercase relative">
+                        <a onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" href="">baka och
+                            förvara</a>
+                        <div class="hover-item-2 active-link-2 absolute">
+                            <a href="https://www.youtube.com/user/HowToBasic" class="hidden-text">Bakkurser</a>
+                            <a href="" class="hidden-text">Brödtillbehör</a>
+                        </div>
+                    </li>
+
+                    <li class="padding-li uppercase relative">
+                        <a onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')"
+                            href="/bakverkstan.html">hitta oss</a>
+                        <div class="hover-item-2 active-link-2 absolute">
+                            <a href="" class="hidden-text">Majorna</a>
+                            <a href="" class="hidden-text">Olskroken</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div>
+                <a href="/boka.html"><span class="gone-500 menu material-icons">bakery_dining</span></a>
+                <a href="/bakverkstan.html"><span class="gone-500 menu material-icons">location_on</span></a>
+                <span class="menu material-icons"> menu</span>
+            </div>
+
+            <audio id="mySound" src="/assets/whoosh.wav" preload="auto"></audio>
+
+        </div>
+    </header>
+
+    <main>
+
+        <div class="full container-main">
+            <h1>Om Bakverkstan</h1>
+            <div class="flex justify-center flex-block-600">
+               
+                <div class="margin-r margin-l w-50">
+                    <div class="container-iframe">
+                        <iframe class="responsive-iframe p-right"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8524.58079525737!2d11.9971937!3d57.7139913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1151d964c81291f8!2sCum%20pane!5e0!3m2!1ssv!2sse!4v1633011946036!5m2!1ssv!2sse"
+                            style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+
+                    <div>
+                        <h3>Olskroken</h3>
+                        <p class="black margin-r">Olskrokstorget i nuvarande form byggdes år 1982. Ett genuint
+                            affärsområde endast ett stenkast från Göteborgs centrum. Stadsdelen har en lång historia och
+                            dess nordöstra del pryds av vackra hus från förra sekelskiftet. <br><br>På en liten
+                            hemtrevlig gata ungefär hundra meter från Olskrokstorget ligger ett mysigt litet fik; Cum
+                            pane. Här kan du köpa bröd och sötsaker precis som förr. Du beställer det du vill ha i ett
+                            litet fönster och sedan vips, så får du ett nybakat färskt bröd. Kikar du in genom fönstret
+                            så kan du se bagarna baka för fullt. Mer ekologiskt och närproducerat går knappt att få tag
+                            i! 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="margin-l margin-r w-50">
+                    <div class="container-iframe">
+                        <iframe class="responsive-iframe"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2132.819421113665!2d11.916089015909467!3d57.68554718111417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff33212f904f3%3A0x852adf92b384f73d!2sCum%20Pane%20Ekologisk%20Bakverkstad!5e0!3m2!1ssv!2sse!4v1633014075122!5m2!1ssv!2sse"
+                            style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+
+                    <div>
+                        <h3>Majorna</h3>
+                        <p class="black">Majorna har gått från att vara en klassisk arbetarstadsdel till att bli en
+                            restaurangtät kulturknutpunkt i Göteborg. De göteborgstypiska landshövdingehusen
+                            dominerar bebyggelsen och området är vackert inbäddat mellan Göta Älv och Slottsskogen
+                            <br><br>Fika är en självklar del av en dag på stan i Göteborg, så även i Majorna. Här
+                            finns bland annat ekologiska bakverkstaden Cum Pane, vars surdegskreationer lär falla
+                            även den kräsnaste hipstern i smaken. En bit bort ligger mysiga Matería, som med sina
+                            gröna växter är en välkomnande oas vid Mariaplan, och runt hörnet hittar du trendiga och
+                            mysiga Kafé Gapet.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+
+        <div class="footer-2">
+
+            <div class="footer-2-container">
+
+                <div class="footer-2-info">
+                    <h1>Besök eller kontakta oss</h1>
+
+                    <p>
+                        CUM PANE Majorna
+                        <br>
+                        Mariagatan 17, Göteborg
+                        <br>
+                        031-12 15 41
+                        <br>
+                        <br>
+                        CUM PANE Olskroken
+                        <br>
+                        Kobbarnas väg 4, Göteborg
+                        <br>
+                        031-19 99 96
+
+                        <br>
+                        <br>
+                        <a href="">info@cumpane.coop</a>
+                    </p>
+
+                </div>
+
+                <div class="öppetider">
+                    <h1>Våra öppetider</h1>
+                    <p>Tisdag-Fredag 9-18, Lördag 9-14
+                    <p>
+                    <div class="img-container-mobile">
+                        <div class="flex img-row">
+                            <img src="http://cumpane.coop/wp-content/themes/clean-home/euro-leaf.png"
+                                alt="euroleaf-logotyp">
+                            <img src="http://cumpane.coop/wp-content/uploads/2020/04/Eldrimner_certifieringsmarke_web.png"
+                                alt="eldrimner-logotyp">
+                        </div>
+
+                        <div class=" flex img-row">
+                            <img src="http://cumpane.coop/wp-content/themes/clean-home/slow-food-gbg.png"
+                                alt="slowfood-logotyp">
+                            <img src="http://cumpane.coop/wp-content/themes/clean-home/cooperatives.png"
+                                alt="cooperatives-logotyp">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="img-container">
+                    <div class="flex img-row">
+                        <img src="http://cumpane.coop/wp-content/themes/clean-home/euro-leaf.png"
+                            alt="euroleaf-logotyp">
+                        <img src="http://cumpane.coop/wp-content/uploads/2020/04/Eldrimner_certifieringsmarke_web.png"
+                            alt="eldrimner-logotyp">
+                    </div>
+
+                    <div class=" flex img-row">
+                        <img src="http://cumpane.coop/wp-content/themes/clean-home/slow-food-gbg.png"
+                            alt="slowfood-logotyp">
+                        <img src="http://cumpane.coop/wp-content/themes/clean-home/cooperatives.png"
+                            alt="cooperatives-logotyp">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div style="padding: 1rem 0;" class="footer">
+
+            <div class="footer-info">
+                <p class="page-time-info">sidan är senast uppdaterad den 7 oktober 2021</p>
+                <p>webbdesign och publicerad av: love lanai & william saar</p>
+                <p><i class="far fa-copyright"></i>medieinstitutet fedg21</p>
+            </div>
+            <div style=" padding:0;" class="search-container">
+                <form>
+                    <input type="text" name="search" placeholder="Sök...">
+                </form>
+            </div>
+
+        </div>
+
+    </footer>
+    <script type="text/javascript" src="/ljud.js"></script>
+</body>
+
+</html>
